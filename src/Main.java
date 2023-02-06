@@ -1,5 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        int numToExamine = 2;
+
+        if(numToExamine % 2 == 0 ){
+            System.out.println("The number examined is EVEN");
+        }else{
+            System.out.println("The number examined is ODD");
+        }
+
     }
 }
